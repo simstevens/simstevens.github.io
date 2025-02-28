@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /news/
 title: "News"
 author-profile: true

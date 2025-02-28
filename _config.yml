@@ -75,8 +75,9 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/simstevens"
+  rss: false
 
 defaults:
   # _posts

@@ -5,7 +5,10 @@ layout: archive
 author-profile: true
 ---
 
-Simon began his studies at Trier University in 2018, earning a Bachelor’s degree in Business Mathematics in September 2022 and a Master’s degree in Mathematics in September 2024. Since October 2024, he is working as a PhD student in Martin Schmidt’s research team at Trier University. His research focuses on bilevel optimization and optimization under (decision-dependent) uncertainty. 
+Simon is a PhD student in Martin Schmidt's research team at Trier University.
+His research interests include (decision-dependent) robust optimization and
+bilevel optimization. He is also a research and teaching assistant at Trier
+University. 
 ---
 ### Education
 * **Master of Science in Mathematics, 2024**  

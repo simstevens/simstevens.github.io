@@ -1,5 +1,14 @@
+# main links
 main:
-  - title: "News"
-    url: /posts/
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Talks"
+    url: /talks/
+  - title: "Teaching"
+    url: /teaching/
   - title: "About"
     url: /about/
+  - title: "News"
+    url: /posts/

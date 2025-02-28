@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 permalink: /publications/
-layout: archive_no_sidebar
+layout: archive
 author_profile: false
 ---
 

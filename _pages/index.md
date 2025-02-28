@@ -17,3 +17,10 @@ assistant at Trier University.
   Trier University, Germany
 * **Bachelor of Science in Business Mathematics 2022**  
   Trier University, Germany
+
+  ---
+
+  ### Research Interests
+  * Bilevel Optimization
+  * Robust Optimization
+  * Endogenous Uncertainties

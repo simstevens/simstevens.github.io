@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 layout: archive
-author-profile: true
+author-profile: false
 ---
 
 Simon Stevens is a PhD student in Martin Schmidt's research team at Trier

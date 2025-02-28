@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Simon Stevens"
   avatar : "/assets/images/bio_photo.jpeg"
-  bio    : # "My awesome biography constrained to a sentence or two goes here."
+  bio    : "PhD Student Mathematical Optimization"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -69,11 +69,12 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/simstevens"
 
+
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/simstevens"
 
 defaults:
   # _posts

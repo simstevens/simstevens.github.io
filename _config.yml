@@ -59,7 +59,8 @@ plugins:
 author:
   name   : "Simon Stevens"
   avatar : "/assets/images/bio_photo.jpeg"
-  bio    : "PhD Student Mathematical Optimization"
+  bio    : "PhD Student Mathematical Optimization
+  location: "Trier University"
   links:
     - label: "E-Mail"
       icon: "fa-solid fa-envelope"

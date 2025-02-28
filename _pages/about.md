@@ -13,5 +13,5 @@ Universitätsring 15
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <a href="https://github.com/simstevens">
-    <i class="fa-brands fa-github"></i> GitHub
+    <i class="fa-brands fa-github"></i>
 </a>

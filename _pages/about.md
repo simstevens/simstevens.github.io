@@ -12,6 +12,8 @@ Department of Mathematics
 Universitätsring 15  
 54296 Trier  
 
+---
+
 ## Short CV
 
 * **Since 10/2024:** Research and Teaching Assistant at Trier University, Department of Mathematics, working group ["Nonlinear Optimization" (Prof. Dr. Martin Schmidt)](https://martinschmidt.squarespace.com/team)

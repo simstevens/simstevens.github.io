@@ -1,7 +1,7 @@
 ---
 permalink: /news/
 title: "News"
-layout: default
+layout: archive_no_sidebar
 author-profile: false
 ---
 

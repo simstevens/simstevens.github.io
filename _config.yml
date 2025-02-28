@@ -74,7 +74,10 @@ author:
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/simon-stevens-ba2430183/"
 
-
+sidebar:
+  nav: "main"
+  author_profile: true
+  
 footer:
   links:
     - label: "E-Mail"

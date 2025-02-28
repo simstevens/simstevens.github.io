@@ -15,7 +15,7 @@ Universitätsring 15
 <a href="https://github.com/simstevens">
     <i class="fa-brands fa-github" style="color: #000000;"></i>
 </a>
-<a href="stevens@uni-trier.de">
+<a href="mailto:stevens@uni-trier.de">
     <i class="fa-solid fa-envelope" style="color: #000000;"></i>
 </a>
 <a href="https://www.linkedin.com/in/simon-stevens-ba2430183/">

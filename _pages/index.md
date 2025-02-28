@@ -21,6 +21,6 @@ assistant at Trier University.
   ---
 
   ### Research Interests
-  * Bilevel Optimization
-  * Robust Optimization
-  * Endogenous Uncertainties
+* Bilevel Optimization
+* Robust Optimization
+* Endogenous Uncertainties

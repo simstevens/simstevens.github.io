@@ -1,6 +1,7 @@
 ---
 permalink: /news/
 title: "News"
+layout: archive
 author-profile: true
 ---
 

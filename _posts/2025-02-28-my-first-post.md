@@ -17,7 +17,3 @@ Du kannst **fett**, *kursiv* oder `Code` schreiben.
 - Punkt 2  
 
 > Dies ist ein Zitat.
-
-Und hier ist ein Bild:  
-
-![Bildbeschreibung](https://example.com/bild.jpg)

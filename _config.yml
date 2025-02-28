@@ -65,7 +65,7 @@ author:
       icon: "fa-solid fa-envelope"
       url: "mailto:stevens@uni-trier.de"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/simstevens"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"

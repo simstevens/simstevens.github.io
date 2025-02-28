@@ -5,6 +5,6 @@ layout: archive
 author_profile: false
 ---
 
-## Exercise classes held in recent years
+## Exercise Classes Held in Recent Years
 
 * Linear Optimization

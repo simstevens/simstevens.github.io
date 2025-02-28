@@ -61,9 +61,6 @@ author:
   avatar : "/assets/images/bio_photo.jpeg"
   bio    : "PhD Student Mathematical Optimization"
   links:
-    - label: "Trier University"
-      icon: "fa-solid fa-building-columns"
-      url: "https://www.uni-trier.de"
     - label: "E-Mail"
       icon: "fa-solid fa-envelope"
       url: "mailto:stevens@uni-trier.de"
@@ -77,7 +74,7 @@ author:
 sidebar:
   nav: "main"
   author_profile: true
-  
+
 footer:
   links:
     - label: "E-Mail"

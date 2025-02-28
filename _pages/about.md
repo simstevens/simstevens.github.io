@@ -18,3 +18,7 @@ Universitätsring 15
 <a href="stevens@uni-trier.de">
     <i class="fa-solid fa-envelope" style="color: #000000;"></i>
 </a>
+<a href="https://www.linkedin.com/in/simon-stevens-ba2430183/">
+    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+</a>
+

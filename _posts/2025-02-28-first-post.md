@@ -7,4 +7,17 @@ author: "Simon Stevens"
 layout: post
 ---
 
-Dies ist ein Test
+## Willkommen zu meinem ersten Post!
+
+Hier ist ein Beispieltext.  
+Du kannst **fett**, *kursiv* oder `Code` schreiben.
+
+### Eine Liste:
+- Punkt 1  
+- Punkt 2  
+
+> Dies ist ein Zitat.
+
+Und hier ist ein Bild:  
+
+![Bildbeschreibung](https://example.com/bild.jpg)

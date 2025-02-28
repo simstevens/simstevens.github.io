@@ -1,5 +1,5 @@
 ---
 permalink: /
-title: "Simon Stevens"
+title: "Home"
 author-profile: true
 ---

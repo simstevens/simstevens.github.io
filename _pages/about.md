@@ -16,6 +16,7 @@ Universitätsring 15
 
 ## Short CV
 
+* **Since 10/2024:** PhD Student Mathematical Optimization at Trier University
 * **Since 10/2024:** Research and Teaching Assistant at Trier University, Department of Mathematics, working group ["Nonlinear Optimization" (Prof. Dr. Martin Schmidt)](https://martinschmidt.squarespace.com/team)
 * **Since 10/2024:** Associate Member of the Research Training Group ["Algorithmic Optimization" at Trier University](https://alop.uni-trier.de/)
 * **09/2024:** Master of Science in Mathematics, Trier University

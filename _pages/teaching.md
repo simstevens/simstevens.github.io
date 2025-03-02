@@ -2,7 +2,7 @@
 title: "Teaching"
 permalink: /teaching/
 layout: archive
-author_profile: false
+author_profile: true
 ---
 
 ## Exercise Classes Held in Recent Years

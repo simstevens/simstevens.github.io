@@ -2,7 +2,7 @@
 title: "Publications"
 permalink: /publications/
 layout: archive
-author_profile: false
+author_profile: true
 ---
 
 ## Submitted Works and Preprints

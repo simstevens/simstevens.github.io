@@ -2,5 +2,5 @@
 title: "Talks"
 permalink: /talks/
 layout: archive
-author_profile: false
+author_profile: true
 ---

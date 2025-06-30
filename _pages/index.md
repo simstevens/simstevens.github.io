@@ -5,8 +5,8 @@ layout: archive
 author-profile: true
 ---
 
-Simon Stevens is a PhD student in Martin Schmidt's research team at Trier
-University. His research interests include (decision-dependent) robust
+Simon Stevens is a PhD student in [Martin Schmidt's research team](https://martinschmidt.squarespace.com/team) at [Trier
+University](https://www.uni-trier.de/). His research interests include (decision-dependent) robust
 optimization and bilevel optimization. He is also a research and teaching
 assistant at Trier University. 
 

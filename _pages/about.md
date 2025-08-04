@@ -16,8 +16,10 @@ Universitätsring 15
 
 ## Short CV
 
+* **Since 07/2025:** Vice president of the [SIAM Student Chapter at Trier University](https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start)
 * **Since 10/2024:** PhD Student Mathematical Optimization at Trier University
 * **Since 10/2024:** Research and Teaching Assistant at Trier University, Department of Mathematics, working group ["Nonlinear Optimization" (Prof. Dr. Martin Schmidt)](https://martinschmidt.squarespace.com/team)
+* **Since 10/2024:** Member of the Steering Committee within the Research Training Group ["Algorithmic Optimization" at Trier University](https://alop.uni-trier.de/)
 * **Since 10/2024:** Associate Member of the Research Training Group ["Algorithmic Optimization" at Trier University](https://alop.uni-trier.de/)
 * **09/2024:** Master of Science in Mathematics, Trier University
 * **09/2022:** Bachelor of Science in Business Mathematics, Trier University

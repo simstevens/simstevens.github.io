@@ -15,7 +15,7 @@ assistant at Trier University.
 ### Education
 * **Master of Science in Mathematics, 2024**  
   Trier University, Germany
-* **Bachelor of Science in Business Mathematics 2022**  
+* **Bachelor of Science in Business Mathematics, 2022**  
   Trier University, Germany
 
 ---

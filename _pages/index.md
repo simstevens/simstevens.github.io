@@ -18,7 +18,7 @@ assistant at Trier University.
 * **Bachelor of Science in Business Mathematics 2022**  
   Trier University, Germany
 
-  ---
+---
 
 ### Research Interests
 * Bilevel Optimization
@@ -33,5 +33,6 @@ assistant at Trier University.
 * **August 12, 2025:** There is a new version of our preprint on **"Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*). You can find it [here](https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/). The accompanying open-source implementations are still available [here](https://github.com/simstevens/ddro-via-bilevel).
   
 * **June 23, 2025:** Today, I gave a talk about **"Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** at the [EURO2025 Conference in Leeds](https://euro2025leeds.uk/).
+
 
 [See all the latest News](https://simstevens.github.io/news/)

@@ -9,5 +9,5 @@ author_profile: true
    [EURO2025 Conference](https://euro2025leeds.uk/)   
    June 23, 2025, Leeds, UK
 2. **A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems**   
-   [GOR2025 Conference](https://or2025.de/)   
+   [OR2025 Conference](https://or2025.de/)   
    September 3, 2025, Bielefeld, Germany

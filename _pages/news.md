@@ -5,7 +5,7 @@ layout: archive
 author-profile: true
 ---
 
-* **September 25, 2025:** Today, I gave a talk about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [International Workshop on Algorithmic Optimization in Trier](https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/)
+* **September 25, 2025:** Today, I gave a talk about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [International Workshop on Algorithmic Optimization in Trier](https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/).
 
 * **September 3, 2025:** I gave a talk today about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [OR2025 Conference in Bielefeld](https://or2025.de/).
 

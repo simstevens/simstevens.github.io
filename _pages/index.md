@@ -28,10 +28,11 @@ assistant at Trier University.
  ---
 
 ### Latest News
+* **February 19, 2026** Our preprint **"A Computational Study for Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) just got an update. You can find it [here](https://optimization-online.org/?p=29420).
+
 * **October 18, 2025:** The [EUROYoung 2025](https://euroyoung.eu/naples2025/) in Naples was a blast! I had the pleasure of presenting our ongoing work on **“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems”**. Great discussions, inspiring talks, and wonderful people all around!
 
 * **September 25, 2025:** Today, I gave a talk about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [International Workshop on Algorithmic Optimization in Trier](https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/).
-  
-* **September 3, 2025:** I gave a talk today about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [OR2025 Conference in Bielefeld](https://or2025.de/).
+
 
 [See all the latest News](https://simstevens.github.io/news/)

@@ -370,16 +370,16 @@
 /* Mobile override: show author links without toggle */
 @include breakpoint(max-width $large - 1px) {
   .author__urls-wrapper {
-    display: block;
+    display: block !important;
     cursor: default;
   }
 
   .author__urls-wrapper button {
-    display: none;
+    display: none !important;
   }
 
   .author__urls {
-    display: block;
+    display: block !important;
     position: relative;
     margin: 0;
     padding: 0;

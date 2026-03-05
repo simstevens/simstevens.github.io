@@ -355,13 +355,13 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: initial;
-    top: initial;
-    inset-inline-end: initial;
-    width: initial;
-    margin-inline-end: initial;
-    padding-inline-start: initial;
-    z-index: initial;
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    width: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    z-index: 10;
 
     &.sticky {
       float: none;

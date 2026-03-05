@@ -71,9 +71,9 @@
     position: absolute;
     top: 0;
     inset-inline-end: 0;
-    width: $right-sidebar-width-narrow;
-    margin-inline-end: -1 * $right-sidebar-width-narrow;
-    padding-inline-start: 1em;
+    width: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
     z-index: 10;
 
     &.sticky {
@@ -93,8 +93,8 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-    margin-inline-end: -1 * $right-sidebar-width;
+    width: 0;
+    margin-inline-end: 0;
   }
 }
 

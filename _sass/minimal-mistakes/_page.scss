@@ -28,6 +28,13 @@ body {
           flex-direction: column;
 }
 
+@include breakpoint($large) {
+  /* Desktop: slightly larger base font for a zoomed feel */
+  html {
+    font-size: 130%;
+  }
+}
+
 .initial-content,
 .search-content {
   flex: 1 0 auto;

@@ -61,7 +61,7 @@ author:
   name   : "Simon Stevens"
   avatar : "/assets/images/bio_photo.jpeg"
   bio    : "PhD Candidate in Mathematical Optimization"
-  location: "[Trier University](https://www.uni-trier.de/)"
+  location: "Trier University"
   links:
     - label: "E-Mail"
       icon: "fa-solid fa-envelope"

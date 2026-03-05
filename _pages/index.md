@@ -14,14 +14,14 @@ research and teaching assistant at Trier University.
 ---
 
 ### Latest News
-* **March 5, 2026** The preprint of our new paper **"Branch-and-Cut for
+* **March 5, 2026:** The preprint of our new paper **"Branch-and-Cut for
   Mixed-Integer Linear Decision-Dependent Robust Optimization"** (joint work
   with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) is available
   right now and can be found [here](https://optimization-online.org/?p=33886).
   The accompanying open-source implementations are available
   [here](https://github.com/simstevens/bnc-for-ddro).
 
-* **February 19, 2026** Our preprint **"A Computational Study for Solving
+* **February 19, 2026:** Our preprint **"A Computational Study for Solving
   Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint
   work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) just got
   an update. You can find it [here](https://optimization-online.org/?p=29420).

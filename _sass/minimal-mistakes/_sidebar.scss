@@ -131,6 +131,30 @@
   .sidebar .author__avatar img {
     max-width: 120px;
   }
+
+  /* Always show author links on mobile (no follow toggle) */
+  .author__urls-wrapper {
+    cursor: default;
+  }
+
+  .author__urls-wrapper button {
+    display: none;
+  }
+
+  .author__urls {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .author__urls::before,
+  .author__urls::after {
+    display: none;
+  }
 }
 
 /*

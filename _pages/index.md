@@ -49,6 +49,3 @@ research and teaching assistant at Trier University.
 * Bilevel Optimization
 * Robust Optimization
 * Endogenous Uncertainties
-
-
-

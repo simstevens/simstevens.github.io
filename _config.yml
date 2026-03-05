@@ -73,7 +73,7 @@ author:
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/simon-stevens-ba2430183/"
     - label: "Google Scholar"
-      icon: "fa-brands fa-google"
+      icon: "fa-brands fa-google-scholar"
       url: "https://scholar.google.de/citations?user=qwbo8FEAAAAJ&hl=de&authuser=1"
 
 sidebar:

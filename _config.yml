@@ -58,7 +58,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Simon Stevens"
   avatar : "/assets/images/bio_photo.jpeg"
   bio    : "PhD Candidate in Mathematical Optimization"
   location: "Trier University"

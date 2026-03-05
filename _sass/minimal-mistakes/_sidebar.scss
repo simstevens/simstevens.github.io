@@ -132,6 +132,19 @@
     max-width: 120px;
   }
 
+  /* Stack author elements so links follow the bio */
+  .sidebar .h-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    width: 100%;
+  }
+
   /* Always show author links on mobile (no follow toggle) */
   .author__urls-wrapper {
     cursor: default;

@@ -19,13 +19,6 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.95;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
-
-    &:hover {
-      opacity: 1;
-    }
 
     &.sticky {
       overflow-y: auto;
@@ -136,10 +129,16 @@
   img {
     max-width: 160px; // enlarge avatar on author profile
     border-radius: 50%;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+    }
+
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }

@@ -13,21 +13,6 @@ research and teaching assistant at Trier University.
 
 ---
 
-### Education
-* **Master of Science in Mathematics, 2024**  
-  Trier University, Germany
-* **Bachelor of Science in Business Mathematics, 2022**  
-  Trier University, Germany
-
----
-
-### Research Interests
-* Bilevel Optimization
-* Robust Optimization
-* Endogenous Uncertainties
-
- ---
-
 ### Latest News
 * **March 5, 2026** The preprint of our new paper **"Branch-and-Cut for
   Mixed-Integer Linear Decision-Dependent Robust Optimization"** (joint work
@@ -49,3 +34,21 @@ research and teaching assistant at Trier University.
 
 
 [See all the latest News](https://simstevens.github.io/news/)
+
+---
+
+### Education
+* **Master of Science in Mathematics, 2024**  
+  Trier University, Germany
+* **Bachelor of Science in Business Mathematics, 2022**  
+  Trier University, Germany
+
+---
+
+### Research Interests
+* Bilevel Optimization
+* Robust Optimization
+* Endogenous Uncertainties
+
+
+

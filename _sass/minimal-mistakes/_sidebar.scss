@@ -110,6 +110,29 @@
   }
 }
 
+@include breakpoint(max-width $large - 1px) {
+  /* Mobile: place sidebar above content and shrink avatar */
+  #main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    order: -1;
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .sidebar .author__avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 120px;
+  }
+}
+
 /*
    Author profile and links
    ========================================================================== */

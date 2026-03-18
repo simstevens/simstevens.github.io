@@ -1,0 +1,7 @@
+// Nur Fließtext, keine Überschriften/Listen
+.page__content p {
+  text-align: justify;
+  hyphens: auto;          // Silbentrennung empfehlenswert bei Blocksatz
+  -webkit-hyphens: auto;
+  word-break: break-word; // Verhindert hässliche Lücken bei langen Wörtern
+}

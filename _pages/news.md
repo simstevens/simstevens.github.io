@@ -5,18 +5,56 @@ layout: archive
 author-profile: true
 ---
 
-* **March 5, 2026:** The preprint of our new paper **"Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) is available right now and can be found [here](https://optimization-online.org/?p=33886). The accompanying open-source implementations are available [here](https://github.com/simstevens/bnc-for-ddro).
+* **March 18, 2026:** I just presented our work on **"Branch-and-Cut for
+  Mixed-Integer Linear Decision-Dependent Robust Optimization"** (jointly with
+  *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) at the [CIRM
+  workshop "Optimization at the second
+  level"](https://conferences.cirm-math.fr/3620.html) in Marseille. You find the
+  preprint of our paper [here](https://optimization-online.org/?p=33886).
 
-* **February 19, 2026:** Our preprint **"A Computational Study for Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) just got an update. You can find it [here](https://optimization-online.org/?p=29420).
+* **March 5, 2026:** The preprint of our new paper **"Branch-and-Cut for
+  Mixed-Integer Linear Decision-Dependent Robust Optimization"** (joint work
+  with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) is available
+  right now and can be found [here](https://optimization-online.org/?p=33886).
+  The accompanying open-source implementations are available
+  [here](https://github.com/simstevens/bnc-for-ddro).
 
-* **October 18, 2025:** The [EUROYoung 2025](https://euroyoung.eu/naples2025/) in Naples was a blast! I had the pleasure of presenting our ongoing work on **“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems”**. Great discussions, inspiring talks, and wonderful people all around!
+* **February 19, 2026:** Our preprint **"A Computational Study for Solving
+  Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint
+  work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) just got
+  an update. You can find it [here](https://optimization-online.org/?p=29420).
 
-* **September 25, 2025:** Today, I gave a talk about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [International Workshop on Algorithmic Optimization in Trier](https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/).
+* **October 18, 2025:** The [EUROYoung 2025](https://euroyoung.eu/naples2025/)
+  in Naples was a blast! I had the pleasure of presenting our ongoing work on
+  **“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization
+  Problems”**. Great discussions, inspiring talks, and wonderful people all
+  around!
 
-* **September 3, 2025:** I gave a talk today about **"A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems"** at the [OR2025 Conference in Bielefeld](https://or2025.de/).
+* **September 25, 2025:** Today, I gave a talk about **"A Branch-and-Cut
+  Approach for Decision-Dependent Robust Optimization Problems"** at the
+  [International Workshop on Algorithmic Optimization in
+  Trier](https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/).
 
-* **August 12, 2025:** There is a new version of our preprint on **"Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*). You can find it [here](https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/). The accompanying open-source implementations are still available [here](https://github.com/simstevens/ddro-via-bilevel).
+* **September 3, 2025:** I gave a talk today about **"A Branch-and-Cut Approach
+  for Decision-Dependent Robust Optimization Problems"** at the [OR2025
+  Conference in Bielefeld](https://or2025.de/).
+
+* **August 12, 2025:** There is a new version of our preprint on **"Solving
+  Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint
+  work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*). You can
+  find it
+  [here](https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/).
+  The accompanying open-source implementations are still available
+  [here](https://github.com/simstevens/ddro-via-bilevel).
   
-* **June 23, 2025:** Today, I gave a talk about **"Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** at the [EURO2025 Conference in Leeds](https://euro2025leeds.uk/).
+* **June 23, 2025:** Today, I gave a talk about **"Solving Decision-Dependent
+  Robust Problems as Bilevel Optimization Problems"** at the [EURO2025
+  Conference in Leeds](https://euro2025leeds.uk/).
 
-* **February 19, 2025:** The preprint for our new paper **"Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) can be found [here](https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/). The accompanying open-source implementations are available [here](https://github.com/simstevens/ddro-via-bilevel). 
+* **February 19, 2025:** The preprint for our new paper **"Solving
+  Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint
+  work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) can be
+  found
+  [here](https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/).
+  The accompanying open-source implementations are available
+  [here](https://github.com/simstevens/ddro-via-bilevel). 

@@ -14,6 +14,13 @@ research and teaching assistant at Trier University.
 ---
 
 ### Latest News
+* **March 18, 2026:** I just presented our work on **"Branch-and-Cut for
+  Mixed-Integer Linear Decision-Dependent Robust Optimization"** (jointly with
+  *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) at the [CIRM
+  workshop "Optimization at the second
+  level"](https://conferences.cirm-math.fr/3620.html) in Marseille. You find the
+  preprint of our paper [here](https://optimization-online.org/?p=33886).
+  
 * **March 5, 2026:** The preprint of our new paper **"Branch-and-Cut for
   Mixed-Integer Linear Decision-Dependent Robust Optimization"** (joint work
   with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) is available
@@ -25,12 +32,6 @@ research and teaching assistant at Trier University.
   Decision-Dependent Robust Problems as Bilevel Optimization Problems"** (joint
   work with *Henri Lefebvre*, *Martin Schmidt* and *Johannes Thürauf*) just got
   an update. You can find it [here](https://optimization-online.org/?p=29420).
-
-* **October 18, 2025:** The [EUROYoung 2025](https://euroyoung.eu/naples2025/)
-  in Naples was a blast! I had the pleasure of presenting our ongoing work on
-  **“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization
-  Problems”**. Great discussions, inspiring talks, and wonderful people all
-  around!
 
 
 [See all the latest News](https://simstevens.github.io/news/)

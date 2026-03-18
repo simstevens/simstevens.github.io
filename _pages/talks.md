@@ -5,6 +5,9 @@ layout: archive
 author_profile: true
 ---
 
+* **Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization**   
+   [CIRM workshop "Optimization at the second level"](https://conferences.cirm-math.fr/3620.html)   
+   March 18, 2026, Marseille, France
 * **A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems**   
    [EUROYoung 2025](https://euroyoung.eu/naples2025/)   
    October 15, 2025, Naples, Italy

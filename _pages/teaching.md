@@ -7,6 +7,9 @@ author_profile: true
 
 ## Exercise Classes Held in Recent Years
 
+### Summer Term 2026
+* Nonlinear Optimization
+
 ### Winter Term 2025/26
 * Bilevel Optimization
 

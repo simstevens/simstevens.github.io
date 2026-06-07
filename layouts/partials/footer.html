@@ -1,0 +1,35 @@
+<footer class="footer">
+  <div class="footer__inner" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+    <div class="copyright copyright--user" style="text-align: center;">
+      <span>© {{ now.Year }} Simon Stevens</span>
+    </div>
+
+    {{ with hugo.Data.social.links }}
+      <nav aria-label="Social media links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem;">
+        {{ range . }}
+          <a href="{{ .url }}" target="_blank" rel="me noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.8rem; border: 1px solid currentColor; border-radius: 999px; text-decoration: none; line-height: 1;">
+            {{ partial "social-icon.html" . }}
+            <span>{{ .name }}</span>
+          </a>
+        {{ end }}
+      </nav>
+    {{ end }}
+  </div>
+</footer>
+
+{{ $menu := resources.Get "js/menu.js" | js.Build }}
+{{ $prism := resources.Get "js/prism.js" | js.Build }}
+
+{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
+
+<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+
+<!-- Banner JS if it enabled -->
+{{ if .Site.Params.Banner }}
+  {{ $banner := resources.Get "js/banner.js" | js.Build | resources.Minify }}
+
+  <script type="text/javascript" src="{{ $banner.RelPermalink }}"></script>
+{{ end }}
+
+<!-- Extended footer section-->
+{{ partial "extended_footer.html" . }}

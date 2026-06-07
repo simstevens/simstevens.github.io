@@ -1,0 +1,19 @@
+[[links]]
+name = "Email"
+url = "mailto:stevens@uni-trier.de"
+icon = "email"
+
+[[links]]
+name = "GitHub"
+url = "https://github.com/simstevens"
+icon = "github"
+
+[[links]]
+name = "LinkedIn"
+url = "https://linkedin.com/in/simon-stevens-ba2430183"
+icon = "linkedin"
+
+[[links]]
+name = "Google Scholar"
+url = "https://scholar.google.de/citations?user=qwbo8FEAAAAJ&hl=de&authuser=1"
+icon = "scholar"

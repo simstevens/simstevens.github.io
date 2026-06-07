@@ -1,0 +1,17 @@
+{{- $icon := .icon -}}
+{{- if eq $icon "email" -}}
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="1.1rem" height="1.1rem" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex: 0 0 auto; display: block;">
+    <path d="M4 6h16v12H4z" />
+    <path d="m4 7 8 6 8-6" />
+  </svg>
+{{- else if eq $icon "linkedin" -}}
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="1.1rem" height="1.1rem" fill="currentColor" style="flex: 0 0 auto; display: block;">
+    <path d="M6.94 7.5A2.44 2.44 0 1 1 4.5 5.06 2.44 2.44 0 0 1 6.94 7.5ZM4.31 20.5h4.37V9.14H4.31ZM10.88 9.14h4.18v1.55h.06a4.58 4.58 0 0 1 4.13-2.27c4.42 0 5.23 2.91 5.23 6.69V20.5h-4.37v-5.46c0-1.3-.02-2.97-1.8-2.97s-2.07 1.41-2.07 2.87v5.56h-4.36Z" transform="scale(.8) translate(0 1)" />
+  </svg>
+{{- else -}}
+  {{- $slug := "" -}}
+  {{- if eq $icon "github" -}}{{- $slug = "github" -}}{{- else if eq $icon "scholar" -}}{{- $slug = "googlescholar" -}}{{- end -}}
+  {{- if ne $slug "" -}}
+    <span aria-hidden="true" style="display: inline-block; width: 1.1rem; height: 1.1rem; flex: 0 0 auto; background-color: currentColor; -webkit-mask: url('https://cdn.simpleicons.org/{{ $slug }}') center / contain no-repeat; mask: url('https://cdn.simpleicons.org/{{ $slug }}') center / contain no-repeat;"></span>
+  {{- end -}}
+{{- end -}}

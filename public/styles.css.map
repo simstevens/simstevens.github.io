@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/simon/Documents/website",
+	"sourceRoot": "/Users/simon/Documents/work/simstevens.github.io",
 	"sources": [
 		"css/base.scss",
 		"themes/re-terminal/assets/css/variables.scss",

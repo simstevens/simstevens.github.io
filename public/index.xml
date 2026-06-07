@@ -1,194 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on </title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Talk at CIRM Workshop in Marseille</title>
-      <link>http://localhost:1313/news/talk_marseille/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/talk_marseille/</guid>
-      <description>&lt;p&gt;I just presented our work on &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on</title><link>https://simstevens.github.io/</link><description>Recent content in Home on</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simstevens.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Talk at CIRM Workshop in Marseille</title><link>https://simstevens.github.io/news/talk_marseille/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/talk_marseille/</guid><description>&lt;p&gt;I just presented our work on &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
 Mixed-Integer Linear Decision-Dependent Robust Optimization&amp;rdquo;&lt;/strong&gt; (jointly with
-&lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) at the &lt;a href=&#34;https://conferences.cirm-math.fr/3620.html&#34;&gt;CIRM
+&lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) at the &lt;a href="https://conferences.cirm-math.fr/3620.html"&gt;CIRM
 workshop &amp;ldquo;Optimization at the second
 level&amp;rdquo;&lt;/a&gt; in Marseille. You find the
-preprint of our paper &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;I just presented our work on &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
-Mixed-Integer Linear Decision-Dependent Robust Optimization&amp;rdquo;&lt;/strong&gt; (jointly with
-&lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) at the &lt;a href=&#34;https://conferences.cirm-math.fr/3620.html&#34;&gt;CIRM
-workshop &amp;ldquo;Optimization at the second
-level&amp;rdquo;&lt;/a&gt; in Marseille. You find the
-preprint of our paper &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>New Preprint Available!</title>
-      <link>http://localhost:1313/news/preprint_bnc-for-ddro/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/preprint_bnc-for-ddro/</guid>
-      <description>&lt;p&gt;The preprint of our new paper &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
+preprint of our paper &lt;a href="https://optimization-online.org/?p=33886"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>New Preprint Available!</title><link>https://simstevens.github.io/news/preprint_bnc-for-ddro/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/preprint_bnc-for-ddro/</guid><description>&lt;p&gt;The preprint of our new paper &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
 Mixed-Integer Linear Decision-Dependent Robust Optimization&amp;rdquo;&lt;/strong&gt; (joint work
 with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) is available
-right now and can be found &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;here&lt;/a&gt;.
+right now and can be found &lt;a href="https://optimization-online.org/?p=33886"&gt;here&lt;/a&gt;.
 The accompanying open-source implementations are available
-&lt;a href=&#34;https://github.com/simstevens/bnc-for-ddro&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;The preprint of our new paper &lt;strong&gt;&amp;ldquo;Branch-and-Cut for
-Mixed-Integer Linear Decision-Dependent Robust Optimization&amp;rdquo;&lt;/strong&gt; (joint work
-with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) is available
-right now and can be found &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;here&lt;/a&gt;.
-The accompanying open-source implementations are available
-&lt;a href=&#34;https://github.com/simstevens/bnc-for-ddro&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Preprint Update</title>
-      <link>http://localhost:1313/news/preprint_ddro-via-bilevel3/</link>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/preprint_ddro-via-bilevel3/</guid>
-      <description>&lt;p&gt;Our preprint &lt;strong&gt;&amp;ldquo;A Computational Study for Solving
+&lt;a href="https://github.com/simstevens/bnc-for-ddro"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Preprint Update</title><link>https://simstevens.github.io/news/preprint_ddro-via-bilevel3/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/preprint_ddro-via-bilevel3/</guid><description>&lt;p&gt;Our preprint &lt;strong&gt;&amp;ldquo;A Computational Study for Solving
 Decision-Dependent Robust Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint
 work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) just got
-an update. You can find it &lt;a href=&#34;https://optimization-online.org/?p=29420&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Our preprint &lt;strong&gt;&amp;ldquo;A Computational Study for Solving
-Decision-Dependent Robust Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint
-work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) just got
-an update. You can find it &lt;a href=&#34;https://optimization-online.org/?p=29420&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Talk at EUROYoung 2025</title>
-      <link>http://localhost:1313/news/talk_naples/</link>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/talk_naples/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://euroyoung.eu/naples2025/&#34;&gt;EUROYoung 2025&lt;/a&gt;
+an update. You can find it &lt;a href="https://optimization-online.org/?p=29420"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Talk at EUROYoung 2025</title><link>https://simstevens.github.io/news/talk_naples/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/talk_naples/</guid><description>&lt;p&gt;The &lt;a href="https://euroyoung.eu/naples2025/"&gt;EUROYoung 2025&lt;/a&gt;
 in Naples was a blast! I had the pleasure of presenting our ongoing work on
 &lt;strong&gt;“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization
 Problems”&lt;/strong&gt;. Great discussions, inspiring talks, and wonderful people all
-around!&lt;/p&gt;</description>
-      <content>&lt;p&gt;The &lt;a href=&#34;https://euroyoung.eu/naples2025/&#34;&gt;EUROYoung 2025&lt;/a&gt;
-in Naples was a blast! I had the pleasure of presenting our ongoing work on
-&lt;strong&gt;“A Branch-and-Cut Approach for Decision-Dependent Robust Optimization
-Problems”&lt;/strong&gt;. Great discussions, inspiring talks, and wonderful people all
-around!&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Talk at ALOP 2025</title>
-      <link>http://localhost:1313/news/talk_alop/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/talk_alop/</guid>
-      <description>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut
+around!&lt;/p&gt;</description></item><item><title>Talk at ALOP 2025</title><link>https://simstevens.github.io/news/talk_alop/</link><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/talk_alop/</guid><description>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut
 Approach for Decision-Dependent Robust Optimization Problems&amp;rdquo;&lt;/strong&gt; at the
-&lt;a href=&#34;https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/&#34;&gt;International Workshop on Algorithmic Optimization in
-Trier&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut
-Approach for Decision-Dependent Robust Optimization Problems&amp;rdquo;&lt;/strong&gt; at the
-&lt;a href=&#34;https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/&#34;&gt;International Workshop on Algorithmic Optimization in
-Trier&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Talk at OR2025</title>
-      <link>http://localhost:1313/news/talk_bielefeld/</link>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/talk_bielefeld/</guid>
-      <description>&lt;p&gt;I gave a talk today about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut Approach
-for Decision-Dependent Robust Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href=&#34;https://or2025.de/&#34;&gt;OR2025
-Conference in Bielefeld&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;I gave a talk today about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut Approach
-for Decision-Dependent Robust Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href=&#34;https://or2025.de/&#34;&gt;OR2025
-Conference in Bielefeld&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Preprint Update</title>
-      <link>http://localhost:1313/news/preprint_ddro-via-bilevel2/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/preprint_ddro-via-bilevel2/</guid>
-      <description>&lt;p&gt;There is a new version of our preprint on &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust
+&lt;a href="https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/"&gt;International Workshop on Algorithmic Optimization in
+Trier&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Talk at OR2025</title><link>https://simstevens.github.io/news/talk_bielefeld/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/talk_bielefeld/</guid><description>&lt;p&gt;I gave a talk today about &lt;strong&gt;&amp;ldquo;A Branch-and-Cut Approach
+for Decision-Dependent Robust Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href="https://or2025.de/"&gt;OR2025
+Conference in Bielefeld&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Preprint Update</title><link>https://simstevens.github.io/news/preprint_ddro-via-bilevel2/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/preprint_ddro-via-bilevel2/</guid><description>&lt;p&gt;There is a new version of our preprint on &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust
 Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;,
 &lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;). You can find it
-&lt;a href=&#34;https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/&#34;&gt;here&lt;/a&gt;.
+&lt;a href="https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/"&gt;here&lt;/a&gt;.
 The accompanying open-source implementations are still available
-&lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;There is a new version of our preprint on &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust
-Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;,
-&lt;em&gt;Martin Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;). You can find it
-&lt;a href=&#34;https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/&#34;&gt;here&lt;/a&gt;.
-The accompanying open-source implementations are still available
-&lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Talk at EURO2025</title>
-      <link>http://localhost:1313/news/talk_leeds/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/talk_leeds/</guid>
-      <description>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent
-Robust Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href=&#34;https://euro2025leeds.uk/&#34;&gt;EURO2025
-Conference in Leeds&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent
-Robust Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href=&#34;https://euro2025leeds.uk/&#34;&gt;EURO2025
-Conference in Leeds&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>New Preprint Available!</title>
-      <link>http://localhost:1313/news/preprint_ddro-via-bilevel1/</link>
-      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/news/preprint_ddro-via-bilevel1/</guid>
-      <description>&lt;p&gt;The preprint for our new paper &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust Problems as
+&lt;a href="https://github.com/simstevens/ddro-via-bilevel"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Talk at EURO2025</title><link>https://simstevens.github.io/news/talk_leeds/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/talk_leeds/</guid><description>&lt;p&gt;Today, I gave a talk about &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent
+Robust Problems as Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; at the &lt;a href="https://euro2025leeds.uk/"&gt;EURO2025
+Conference in Leeds&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>New Preprint Available!</title><link>https://simstevens.github.io/news/preprint_ddro-via-bilevel1/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/news/preprint_ddro-via-bilevel1/</guid><description>&lt;p&gt;The preprint for our new paper &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust Problems as
 Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin
 Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) can be found
-&lt;a href=&#34;https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/&#34;&gt;here&lt;/a&gt;.
+&lt;a href="https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/"&gt;here&lt;/a&gt;.
 The accompanying open-source implementations are available
-&lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;The preprint for our new paper &lt;strong&gt;&amp;ldquo;Solving Decision-Dependent Robust Problems as
-Bilevel Optimization Problems&amp;rdquo;&lt;/strong&gt; (joint work with &lt;em&gt;Henri Lefebvre&lt;/em&gt;, &lt;em&gt;Martin
-Schmidt&lt;/em&gt; and &lt;em&gt;Johannes Thürauf&lt;/em&gt;) can be found
-&lt;a href=&#34;https://optimization-online.org/2025/02/solving-decision-dependent-robust-problems-as-bilevel-optimization-problems/&#34;&gt;here&lt;/a&gt;.
-The accompanying open-source implementations are available
-&lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;a href="https://github.com/simstevens/ddro-via-bilevel"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>About</title><link>https://simstevens.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/about/</guid><description>&lt;h2 id="contact"&gt;Contact&lt;/h2&gt;
 &lt;p&gt;Trier University&lt;br&gt;
 Department of Mathematics&lt;br&gt;
 Universitätsring 15&lt;br&gt;
 54296 Trier&lt;br&gt;
 0651 / 201 - 3452&lt;br&gt;
-&lt;a href=&#34;mailto:stevens@uni-trier.de&#34;&gt;stevens@uni-trier.de&lt;/a&gt;&lt;/p&gt;
+&lt;a href="mailto:stevens@uni-trier.de"&gt;stevens@uni-trier.de&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h2 id="education"&gt;Education&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Master of Science in Mathematics (2024)&lt;/strong&gt;&lt;br&gt;
 Trier University, Germany&lt;/li&gt;
@@ -196,200 +48,66 @@ Trier University, Germany&lt;/li&gt;
 Trier University, Germany&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;short-cv&#34;&gt;Short CV&lt;/h2&gt;
+&lt;h2 id="short-cv"&gt;Short CV&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Since 07/2025:&lt;/strong&gt; Vice president of the &lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter at Trier University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Since 07/2025:&lt;/strong&gt; Vice president of the &lt;a href="https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start"&gt;SIAM Student Chapter at Trier University&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Since 10/2024:&lt;/strong&gt; PhD Student Mathematical Optimization at Trier University&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Since 10/2024:&lt;/strong&gt; Research and Teaching Assistant at Trier University, Department of Mathematics, working group &lt;a href=&#34;https://martinschmidt.squarespace.com/team&#34;&gt;&amp;ldquo;Nonlinear Optimization&amp;rdquo; (Prof. Dr. Martin Schmidt)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Member of the Steering Committee within the Research Training Group &lt;a href=&#34;https://alop.uni-trier.de/&#34;&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Associate Member of the Research Training Group &lt;a href=&#34;https://alop.uni-trier.de/&#34;&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Since 10/2024:&lt;/strong&gt; Research and Teaching Assistant at Trier University, Department of Mathematics, working group &lt;a href="https://martinschmidt.squarespace.com/team"&gt;&amp;ldquo;Nonlinear Optimization&amp;rdquo; (Prof. Dr. Martin Schmidt)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Member of the Steering Committee within the Research Training Group &lt;a href="https://alop.uni-trier.de/"&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Associate Member of the Research Training Group &lt;a href="https://alop.uni-trier.de/"&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;09/2024:&lt;/strong&gt; Master of Science in Mathematics, Trier University&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;09/2022:&lt;/strong&gt; Bachelor of Science in Business Mathematics, Trier University&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;08/2015 - 09/2018:&lt;/strong&gt; Banker at Kreissparkasse Rhein-Hunsrück&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;Trier University&lt;br&gt;
-Department of Mathematics&lt;br&gt;
-Universitätsring 15&lt;br&gt;
-54296 Trier&lt;br&gt;
-0651 / 201 - 3452&lt;br&gt;
-&lt;a href=&#34;mailto:stevens@uni-trier.de&#34;&gt;stevens@uni-trier.de&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Master of Science in Mathematics (2024)&lt;/strong&gt;&lt;br&gt;
-Trier University, Germany&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor of Science in Business Mathematics (2022)&lt;/strong&gt;&lt;br&gt;
-Trier University, Germany&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;short-cv&#34;&gt;Short CV&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Since 07/2025:&lt;/strong&gt; Vice president of the &lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter at Trier University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Since 10/2024:&lt;/strong&gt; PhD Student Mathematical Optimization at Trier University&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Since 10/2024:&lt;/strong&gt; Research and Teaching Assistant at Trier University, Department of Mathematics, working group &lt;a href=&#34;https://martinschmidt.squarespace.com/team&#34;&gt;&amp;ldquo;Nonlinear Optimization&amp;rdquo; (Prof. Dr. Martin Schmidt)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Member of the Steering Committee within the Research Training Group &lt;a href=&#34;https://alop.uni-trier.de/&#34;&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10/2024 - 12/2025:&lt;/strong&gt; Associate Member of the Research Training Group &lt;a href=&#34;https://alop.uni-trier.de/&#34;&gt;&amp;ldquo;Algorithmic Optimization&amp;rdquo; at Trier University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;09/2024:&lt;/strong&gt; Master of Science in Mathematics, Trier University&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;09/2022:&lt;/strong&gt; Bachelor of Science in Business Mathematics, Trier University&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;08/2015 - 09/2018:&lt;/strong&gt; Banker at Kreissparkasse Rhein-Hunsrück&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publications/</guid>
-      <description>&lt;h2 id=&#34;submitted-works-and-preprints&#34;&gt;Submitted Works and Preprints&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Publications</title><link>https://simstevens.github.io/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/publications/</guid><description>&lt;h2 id="submitted-works-and-preprints"&gt;Submitted Works and Preprints&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization&lt;/strong&gt;&lt;br&gt;
 Jointly with Henri Lefebvre, Martin Schmidt and Johannes Thürauf&lt;br&gt;
-Preprint (03/2026): &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
-Accompanying open-source implementations: &lt;a href=&#34;https://github.com/simstevens/bnc-for-ddro&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+Preprint (03/2026): &lt;a href="https://optimization-online.org/?p=33886"&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
+Accompanying open-source implementations: &lt;a href="https://github.com/simstevens/bnc-for-ddro"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;A Computational Study for Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems&lt;/strong&gt;&lt;br&gt;
 Jointly with Henri Lefebvre, Martin Schmidt and Johannes Thürauf&lt;br&gt;
-Preprint (02/2026): &lt;a href=&#34;https://optimization-online.org/?p=29420&#34;&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
-Accompanying open-source implementations: &lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+Preprint (02/2026): &lt;a href="https://optimization-online.org/?p=29420"&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
+Accompanying open-source implementations: &lt;a href="https://github.com/simstevens/ddro-via-bilevel"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content>&lt;h2 id=&#34;submitted-works-and-preprints&#34;&gt;Submitted Works and Preprints&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization&lt;/strong&gt;&lt;br&gt;
-Jointly with Henri Lefebvre, Martin Schmidt and Johannes Thürauf&lt;br&gt;
-Preprint (03/2026): &lt;a href=&#34;https://optimization-online.org/?p=33886&#34;&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
-Accompanying open-source implementations: &lt;a href=&#34;https://github.com/simstevens/bnc-for-ddro&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A Computational Study for Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems&lt;/strong&gt;&lt;br&gt;
-Jointly with Henri Lefebvre, Martin Schmidt and Johannes Thürauf&lt;br&gt;
-Preprint (02/2026): &lt;a href=&#34;https://optimization-online.org/?p=29420&#34;&gt;Optimization Online&lt;/a&gt;&lt;br&gt;
-Accompanying open-source implementations: &lt;a href=&#34;https://github.com/simstevens/ddro-via-bilevel&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Talks</title>
-      <link>http://localhost:1313/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/talks/</guid>
-      <description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Talks</title><link>https://simstevens.github.io/talks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/talks/</guid><description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Never Change a Winning Team - Unless It&amp;rsquo;s More Fun&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;Optimizing Tournament Narratives via Multi-Commodity Flow Models&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start"&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
 June 2, 2026, Trier University, Germany&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://conferences.cirm-math.fr/3620.html&#34;&gt;CIRM Workshop &amp;ldquo;Optimization at the second level&amp;rdquo;&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://conferences.cirm-math.fr/3620.html"&gt;CIRM Workshop &amp;ldquo;Optimization at the second level&amp;rdquo;&lt;/a&gt;&lt;br&gt;
 March 18, 2026, Marseille, France&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;A Gentle and Incomplete Introduction to Branch and Cut with Intersection Cuts&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start"&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
 November 18, 2025, Trier University, Germany&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://euroyoung.eu/naples2025/&#34;&gt;EUROYoung 2025&lt;/a&gt;&lt;br&gt;
-October 15, 2025, Naples, Italy&lt;/p&gt;</description>
-      <content>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Never Change a Winning Team - Unless It&amp;rsquo;s More Fun&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;Optimizing Tournament Narratives via Multi-Commodity Flow Models&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
-June 2, 2026, Trier University, Germany&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://conferences.cirm-math.fr/3620.html&#34;&gt;CIRM Workshop &amp;ldquo;Optimization at the second level&amp;rdquo;&lt;/a&gt;&lt;br&gt;
-March 18, 2026, Marseille, France&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A Gentle and Incomplete Introduction to Branch and Cut with Intersection Cuts&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start&#34;&gt;SIAM Student Chapter&lt;/a&gt;&lt;br&gt;
-November 18, 2025, Trier University, Germany&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://euroyoung.eu/naples2025/&#34;&gt;EUROYoung 2025&lt;/a&gt;&lt;br&gt;
-October 15, 2025, Naples, Italy&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://alop.uni-trier.de/event/international-workshop-on-algorithmic-optimization/&#34;&gt;International Workshop on Algorithmic Optimization&lt;/a&gt;&lt;br&gt;
-September 25, 2025, Trier, Germany&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A Branch-and-Cut Approach for Decision-Dependent Robust Optimization Problems&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://or2025.de/&#34;&gt;OR2025 Conference&lt;/a&gt;&lt;br&gt;
-September 3, 2025, Bielefeld, Germany&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://euro2025leeds.uk/&#34;&gt;EURO2025 Conference&lt;/a&gt;&lt;br&gt;
-June 23, 2025, Leeds, UK&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>http://localhost:1313/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/teaching/</guid>
-      <description>&lt;h2 id=&#34;exercise-classes-held-in-recent-years&#34;&gt;Exercise Classes Held in Recent Years&lt;/h2&gt;
-&lt;h3 id=&#34;summer-term-2026&#34;&gt;Summer Term 2026&lt;/h3&gt;
+&lt;a href="https://euroyoung.eu/naples2025/"&gt;EUROYoung 2025&lt;/a&gt;&lt;br&gt;
+October 15, 2025, Naples, Italy&lt;/p&gt;</description></item><item><title>Teaching</title><link>https://simstevens.github.io/teaching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://simstevens.github.io/teaching/</guid><description>&lt;h2 id="exercise-classes-held-in-recent-years"&gt;Exercise Classes Held in Recent Years&lt;/h2&gt;
+&lt;h3 id="summer-term-2026"&gt;Summer Term 2026&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Nonlinear Optimization&lt;/li&gt;
 &lt;li&gt;Bilevel Optimization II&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;winter-term-202526&#34;&gt;Winter Term 2025/26&lt;/h3&gt;
+&lt;h3 id="winter-term-202526"&gt;Winter Term 2025/26&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Bilevel Optimization I&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;summer-term-2025&#34;&gt;Summer Term 2025&lt;/h3&gt;
+&lt;h3 id="summer-term-2025"&gt;Summer Term 2025&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Numerical Optimization&lt;/li&gt;
 &lt;li&gt;Nonlinear Optimization&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;winter-term-202425&#34;&gt;Winter Term 2024/25&lt;/h3&gt;
+&lt;h3 id="winter-term-202425"&gt;Winter Term 2024/25&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Linear Optimization&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content>&lt;h2 id=&#34;exercise-classes-held-in-recent-years&#34;&gt;Exercise Classes Held in Recent Years&lt;/h2&gt;
-&lt;h3 id=&#34;summer-term-2026&#34;&gt;Summer Term 2026&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Nonlinear Optimization&lt;/li&gt;
-&lt;li&gt;Bilevel Optimization II&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;winter-term-202526&#34;&gt;Winter Term 2025/26&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Bilevel Optimization I&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;summer-term-2025&#34;&gt;Summer Term 2025&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Numerical Optimization&lt;/li&gt;
-&lt;li&gt;Nonlinear Optimization&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;winter-term-202425&#34;&gt;Winter Term 2024/25&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear Optimization&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>

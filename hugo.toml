@@ -3,6 +3,10 @@ languageCode = "en-us"
 # theme = "hugo-theme-re-terminal"
 pagination.pagerSize = 5
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   contentTypeName = "posts"
   themeColor = "gruvbox"

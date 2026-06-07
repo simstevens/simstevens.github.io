@@ -179,11 +179,41 @@
 
   <div class="content">
     
-  <section class="index-content framed" style="display: grid; gap: 1.5rem; align-items: center; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
-    <div style="justify-self: center; max-width: 320px; width: 100%;">
+  <style>
+    .home-hero {
+      display: grid;
+      gap: 1.5rem;
+      align-items: center;
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+      grid-template-areas: "image text";
+    }
+
+    .home-hero-image {
+      grid-area: image;
+      justify-self: center;
+      max-width: 320px;
+      width: 100%;
+    }
+
+    .home-hero-text {
+      grid-area: text;
+    }
+
+    @media (max-width: 760px) {
+      .home-hero {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "image"
+          "text";
+      }
+    }
+  </style>
+
+  <section class="index-content framed home-hero">
+    <div class="home-hero-image">
       <img src="/img/bio_photo.jpeg" alt="Portrait von Simon Stevens" style="width: 100%; height: auto; border-radius: 16px; display: block; object-fit: cover;" />
     </div>
-    <div>
+    <div class="home-hero-text">
       <h1 style="color: var(--accent);"></h1>
       
         <p><strong>Simon Stevens</strong> is a PhD candidate in <a href="https://martinschmidt.squarespace.com/team">Martin Schmidt’s research

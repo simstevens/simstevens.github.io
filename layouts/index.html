@@ -1,5 +1,8 @@
 {{ define "main" }}
   <section class="index-content framed" style="display: grid; gap: 1.5rem; align-items: center; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+    <div style="justify-self: center; max-width: 320px; width: 100%;">
+      <img src="{{ "/img/bio_photo.jpeg" | relURL }}" alt="Portrait von Simon Stevens" style="width: 100%; height: auto; border-radius: 16px; display: block; object-fit: cover;" />
+    </div>
     <div>
       <h1 style="color: var(--accent);">{{ .Site.Title }}</h1>
       {{ with .Content }}
@@ -15,9 +18,6 @@
           {{ end }}
         </nav>
       {{ end }}
-    </div>
-    <div style="justify-self: center; max-width: 320px; width: 100%;">
-      <img src="{{ "/img/bio_photo.jpeg" | relURL }}" alt="Portrait von Simon Stevens" style="width: 100%; height: auto; border-radius: 16px; display: block; object-fit: cover;" />
     </div>
   </section>
 

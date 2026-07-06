@@ -11,5 +11,5 @@ title: "Publications"
 
 * **A Computational Study for Solving Decision-Dependent Robust Problems as Bilevel Optimization Problems**  
     Jointly with Henri Lefebvre, Martin Schmidt and Johannes Thürauf  
-    Preprint (02/2026): [Optimization Online](https://optimization-online.org/?p=29420)  
+    Preprint (07/2026): [Optimization Online](https://optimization-online.org/?p=29420)  
     Accompanying open-source implementations: [GitHub](https://github.com/simstevens/ddro-via-bilevel)

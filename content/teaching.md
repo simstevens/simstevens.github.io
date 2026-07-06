@@ -2,8 +2,6 @@
 title: "Teaching"
 ---
 
-## Exercise Classes Held in Recent Years
-
 ### Summer Term 2026
 * Nonlinear Optimization
 * Bilevel Optimization II

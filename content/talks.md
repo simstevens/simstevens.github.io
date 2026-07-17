@@ -3,6 +3,10 @@ title: "Talks"
 ---
 
 
+* **Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization**   
+    [IFORS 2026](https://ifors2026.at/home/)
+    July 17, 2026, Vienna, Austria
+
 * **Never Change a Winning Team - Unless It's More Fun**   
     **Optimizing Tournament Narratives via Multi-Commodity Flow Models**   
     [SIAM Student Chapter](https://www.uni-trier.de/studium/leben/freizeit/hochschulgruppen/siam-student-chapter/start)  

@@ -4,7 +4,7 @@ title: "Talks"
 
 
 * **Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization**   
-    [IFORS 2026](https://ifors2026.at/home/)
+    [IFORS 2026](https://ifors2026.at/home/)    
     July 17, 2026, Vienna, Austria
 
 * **Never Change a Winning Team - Unless It's More Fun**   

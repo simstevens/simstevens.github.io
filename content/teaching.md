@@ -2,6 +2,9 @@
 title: "Teaching"
 ---
 
+### Winter Term 2026/27
+* Linear Algebra
+
 ### Summer Term 2026
 * Nonlinear Optimization
 * Bilevel Optimization II

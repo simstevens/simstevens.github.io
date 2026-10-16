@@ -2,6 +2,9 @@
 title: "Talks"
 ---
 
+* **Bilevel Optimization with a Piecewise-Linear Follower**    
+    [EUROYoung 2026](https://euroyoung.eu/lugano2026/)
+    October 15, 2026, Lugano, Switzerland
 
 * **Branch-and-Cut for Mixed-Integer Linear Decision-Dependent Robust Optimization**   
     [IFORS 2026](https://ifors2026.at/home/)    

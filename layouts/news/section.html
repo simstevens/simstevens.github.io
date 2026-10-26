@@ -47,7 +47,7 @@
           {{ end }}
         </div>
 
-        {{ if not .Params.showFullContent }}
+        {{ if and (not .Params.showFullContent) .Truncated }}
           <div>
             <a class="read-more button" href="{{ .RelPermalink }}">{{ $.Site.Params.ReadMore }} →</a>
           </div>

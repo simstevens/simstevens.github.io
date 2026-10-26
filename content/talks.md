@@ -2,6 +2,11 @@
 title: "Talks"
 ---
 
+* **Bilevel Optimization with a Piecewise-Linear Follower**     
+    Poster Presentation     
+    [MIP Europe Workshop 2026](https://www.mixedinteger.org/EUROMIP/2026/)    
+    October 19, 2026, Rome, Italy
+
 * **Bilevel Optimization with a Piecewise-Linear Follower**    
     [EUROYoung 2026](https://euroyoung.eu/lugano2026/)    
     October 15, 2026, Lugano, Switzerland

@@ -17,3 +17,8 @@ icon = "linkedin"
 name = "Google Scholar"
 url = "https://scholar.google.de/citations?user=qwbo8FEAAAAJ&hl=de&authuser=1"
 icon = "scholar"
+
+[[links]]
+name = "ORCID"
+url = "https://orcid.org/0009-0005-7717-7327"
+icon = "orcid"

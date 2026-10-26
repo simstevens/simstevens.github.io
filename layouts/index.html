@@ -19,6 +19,12 @@
       grid-area: text;
     }
 
+    .home-social-icon svg,
+    .home-social-icon span {
+      width: 1.4rem !important;
+      height: 1.4rem !important;
+    }
+
     @media (max-width: 760px) {
       .home-hero {
         grid-template-columns: 1fr;
@@ -39,11 +45,13 @@
         {{ . }}
       {{ end }}
       {{ with hugo.Data.social.links }}
-        <nav aria-label="Social media links" style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem;">
+        <nav aria-label="Social media links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.9rem; margin-top: 1.25rem;">
           {{ range . }}
-            <a class="home-social-link" href="{{ .url }}" target="_blank" rel="me noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 0.9rem; border: 1px solid currentColor; border-radius: 999px; text-decoration: none; line-height: 1;">
-              {{ partial "social-icon.html" . }}
-              <span>{{ .name }}</span>
+            <a class="home-social-link" href="{{ .url }}" target="_blank" rel="me noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}" style="display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.35rem; width: 4.75rem; height: 4.75rem; padding: 0.4rem; box-sizing: border-box; border: 1px solid currentColor; border-radius: 999px; text-align: center; text-decoration: none; line-height: 1.1;">
+              <span class="home-social-icon" style="display: inline-flex;">
+                {{ partial "social-icon.html" . }}
+              </span>
+              <span style="font-size: 0.65rem;">{{ .name }}</span>
             </a>
           {{ end }}
         </nav>
@@ -80,11 +88,16 @@
               {{ .Summary }}
             {{ end }}
           </div>
-          <div>
-            <a class="read-more button" href="{{ .RelPermalink }}">Read more →</a>
-          </div>
+          {{ if .Truncated }}
+            <div>
+              <a class="read-more button" href="{{ .RelPermalink }}">Read more →</a>
+            </div>
+          {{ end }}
         </article>
       {{ end }}
+      <div>
+        <a class="button" href="{{ "news/" | relURL }}">Show all news →</a>
+      </div>
     {{ else }}
       <p>No news posts yet.</p>
     {{ end }}

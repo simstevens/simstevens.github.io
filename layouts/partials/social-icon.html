@@ -10,7 +10,7 @@
   </svg>
 {{- else -}}
   {{- $slug := "" -}}
-  {{- if eq $icon "github" -}}{{- $slug = "github" -}}{{- else if eq $icon "scholar" -}}{{- $slug = "googlescholar" -}}{{- end -}}
+  {{- if eq $icon "github" -}}{{- $slug = "github" -}}{{- else if eq $icon "scholar" -}}{{- $slug = "googlescholar" -}}{{- else if eq $icon "orcid" -}}{{- $slug = "orcid" -}}{{- end -}}
   {{- if ne $slug "" -}}
     <span aria-hidden="true" style="display: inline-block; width: 1.1rem; height: 1.1rem; flex: 0 0 auto; background-color: currentColor; -webkit-mask: url('https://cdn.simpleicons.org/{{ $slug }}') center / contain no-repeat; mask: url('https://cdn.simpleicons.org/{{ $slug }}') center / contain no-repeat;"></span>
   {{- end -}}

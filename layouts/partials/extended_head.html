@@ -235,6 +235,113 @@
     border-radius: 16px;
   }
 
+  /* About page: contact card, education cards, short CV as a timeline. */
+  .page-content--about hr {
+    display: none;
+  }
+
+  .page-content--about h2 {
+    margin-top: 2.5rem;
+  }
+
+  .page-content--about h2:first-child {
+    margin-top: 0;
+  }
+
+  .page-content--about #contact + p {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 1.4rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.25rem;
+  }
+
+  .page-content--about #education + ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page-content--about #education + ul > li {
+    margin: 0;
+    padding: 1rem 1.3rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.25rem;
+    color: color-mix(in srgb, var(--color), transparent 25%);
+  }
+
+  .page-content--about #education + ul strong {
+    color: var(--accent);
+  }
+
+  .page-content--about #short-cv + ul {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    list-style: none;
+  }
+
+  .page-content--about #short-cv + ul::before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.45rem;
+    width: 2px;
+    border-radius: 999px;
+    background: var(--accent-muted);
+  }
+
+  .page-content--about #short-cv + ul > li {
+    position: relative;
+    margin: 0 0 1rem;
+    padding-left: 11rem;
+  }
+
+  .page-content--about #short-cv + ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.75em;
+    left: calc(-2rem + 0.45rem + 1px);
+    width: 14px;
+    height: 14px;
+    border: 3px solid var(--background);
+    border-radius: 999px;
+    background: var(--accent);
+    transform: translate(-50%, -50%);
+  }
+
+  /* Date pills share one width so the entry texts line up in a second column. */
+  .page-content--about #short-cv + ul > li > strong:first-child {
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    box-sizing: border-box;
+    width: 10rem;
+    padding: 0.1rem 0.7rem;
+    text-align: center;
+    border-radius: 999px;
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 684px) {
+    .page-content--about #short-cv + ul > li {
+      padding-left: 0;
+    }
+
+    .page-content--about #short-cv + ul > li > strong:first-child {
+      position: static;
+      display: block;
+      width: fit-content;
+      margin-bottom: 0.3rem;
+    }
+  }
+
   /* Timeline (Teaching and Presentations): h3 headings are dots on a vertical line. */
   .page-content--teaching,
   .page-content--talks {

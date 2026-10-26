@@ -1,0 +1,27 @@
+{{- /* Renders data/teaching.toml as a timeline; each course opens a pop-up with its details. */ -}}
+{{- range $termIndex, $term := hugo.Data.teaching.terms }}
+<h3>{{ $term.name }}</h3>
+<ul>
+  {{- range $courseIndex, $course := $term.courses }}
+  {{- $popoverID := printf "course-%d-%d" $termIndex $courseIndex }}
+  <li>
+    <button type="button" class="course-card" popovertarget="{{ $popoverID }}">{{ $course.name }}</button>
+    <div id="{{ $popoverID }}" class="course-popover" popover>
+      <h4>{{ $course.name }}</h4>
+      <p class="course-popover__term">{{ $term.name }}</p>
+      <dl>
+        {{- with $course.role }}
+        <dt>Role</dt>
+        <dd>{{ . }}</dd>
+        {{- end }}
+        {{- with $course.language }}
+        <dt>Language</dt>
+        <dd>{{ . }}</dd>
+        {{- end }}
+      </dl>
+      <button type="button" class="button course-popover__close" popovertarget="{{ $popoverID }}" popovertargetaction="hide">Close</button>
+    </div>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}

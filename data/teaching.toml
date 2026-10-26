@@ -1,0 +1,52 @@
+# Teaching timeline, newest term first.
+# Each course may have a `role` and a `language`; empty fields are hidden in the pop-up.
+
+[[terms]]
+name = "Winter Term 2026/27"
+
+  [[terms.courses]]
+  name = "Linear Algebra"
+  role = "Exercise Sessions"
+  language = "German"
+
+[[terms]]
+name = "Summer Term 2026"
+
+  [[terms.courses]]
+  name = "Nonlinear Optimization"
+  role = "Exercise Sessions"
+  language = "English"
+
+  [[terms.courses]]
+  name = "Bilevel Optimization II"
+  role = "Exercise Sessions"
+  language = "English"
+
+[[terms]]
+name = "Winter Term 2025/26"
+
+  [[terms.courses]]
+  name = "Bilevel Optimization I"
+  role = "Exercise Sessions"
+  language = "English"
+
+[[terms]]
+name = "Summer Term 2025"
+
+  [[terms.courses]]
+  name = "Numerical Optimization"
+  role = "Exercise Sessions"
+  language = "English"
+
+  [[terms.courses]]
+  name = "Nonlinear Optimization"
+  role = "Exercise Sessions"
+  language = "English"
+
+[[terms]]
+name = "Winter Term 2024/25"
+
+  [[terms.courses]]
+  name = "Linear Optimization"
+  role = "Exercise Sessions"
+  language = "German"

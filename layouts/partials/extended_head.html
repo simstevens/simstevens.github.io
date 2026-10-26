@@ -176,6 +176,158 @@
     color: var(--accent-contrast-color) !important;
   }
 
+  /* Larger titles on the simple pages (Publications, Talks, Teaching, About). */
+  .headings--one-size .page-title {
+    font-size: 2rem;
+  }
+
+  /* Teaching page as a timeline: terms (h3) are dots on a vertical line, courses (li) are cards. */
+  .page-content--teaching {
+    position: relative;
+    padding-left: 2rem;
+  }
+
+  .page-content--teaching::before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.45rem;
+    width: 2px;
+    border-radius: 999px;
+    background: var(--accent-muted);
+  }
+
+  .page-content--teaching h3 {
+    position: relative;
+    display: inline-block;
+    margin: 2rem 0 0.8rem;
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color);
+    font-size: 1rem;
+  }
+
+  .page-content--teaching h3:first-child {
+    margin-top: 0;
+  }
+
+  .page-content--teaching h3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(-2rem + 0.45rem + 1px);
+    width: 14px;
+    height: 14px;
+    border: 3px solid var(--background);
+    border-radius: 999px;
+    background: var(--accent);
+    transform: translate(-50%, -50%);
+  }
+
+  .page-content--teaching ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page-content--teaching li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-content--teaching li::before {
+    content: none;
+  }
+
+  .page-content--teaching .course-card {
+    display: inline-block;
+    margin: 0;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1rem;
+    background: transparent;
+    color: var(--color);
+    font: inherit;
+    font-weight: normal;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .page-content--teaching .course-card:hover,
+  .page-content--teaching .course-card:focus-visible {
+    background: transparent;
+    color: var(--accent);
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Course details pop-up (native popover, centred by the browser). */
+  .course-popover {
+    width: min(26rem, calc(100vw - 2rem));
+    padding: 1.5rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.5rem;
+    background: var(--background);
+    color: var(--color);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  .course-popover::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .page-content .course-popover h4 {
+    margin: 0;
+    color: var(--accent);
+    font-size: 1.2rem;
+  }
+
+  .course-popover__term {
+    margin: 0.3rem 0 1rem;
+    color: var(--accent-muted);
+  }
+
+  .course-popover dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.4rem 1rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .course-popover dt {
+    color: var(--accent-muted);
+  }
+
+  .course-popover dd {
+    margin: 0;
+  }
+
+  .course-popover .course-popover__close {
+    display: inline-flex;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color);
+    font-weight: normal;
+    line-height: 1;
+    transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .course-popover .course-popover__close:hover,
+  .course-popover .course-popover__close:focus-visible {
+    background: transparent;
+    color: var(--accent);
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
   @media (max-width: 900px) {
     .navigation-menu__inner.menu--desktop {
       gap: 0;
@@ -210,7 +362,11 @@
     .navigation-menu__inner.menu--desktop > li > a:hover,
     .navigation-menu__inner.menu--desktop > li > a:focus-visible,
     .menu--mobile .menu__dropdown > li > a:hover,
-    .menu--mobile .menu__dropdown > li > a:focus-visible {
+    .menu--mobile .menu__dropdown > li > a:focus-visible,
+    .page-content--teaching .course-card:hover,
+    .page-content--teaching .course-card:focus-visible,
+    .course-popover .course-popover__close:hover,
+    .course-popover .course-popover__close:focus-visible {
       transform: none;
     }
   }

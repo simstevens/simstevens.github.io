@@ -5,8 +5,8 @@
   (eq .File.BaseFileName "talks")
   (eq .File.BaseFileName "publications")}}
     <section class="index-content">
-      <h1 style="color: var(--accent);">{{ .Title | markdownify }}</h1>
-      <div class="page-content">
+      <h1 class="page-title" style="color: var(--accent);">{{ .Title | markdownify }}</h1>
+      <div class="page-content page-content--{{ .File.BaseFileName }}">
         {{ .Content }}
       </div>
     </section>

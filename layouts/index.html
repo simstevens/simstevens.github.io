@@ -19,10 +19,14 @@
       grid-area: text;
     }
 
-    .home-social-icon svg,
-    .home-social-icon span {
-      width: 1.4rem !important;
-      height: 1.4rem !important;
+    .home-section-title {
+      color: var(--accent);
+    }
+
+    .home-social-link svg,
+    .home-social-link span {
+      width: 1.75rem !important;
+      height: 1.75rem !important;
     }
 
     @media (max-width: 760px) {
@@ -47,11 +51,8 @@
       {{ with hugo.Data.social.links }}
         <nav aria-label="Social media links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.9rem; margin-top: 1.25rem;">
           {{ range . }}
-            <a class="home-social-link" href="{{ .url }}" target="_blank" rel="me noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}" style="display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.35rem; width: 4.75rem; height: 4.75rem; padding: 0.4rem; box-sizing: border-box; border: 1px solid currentColor; border-radius: 999px; text-align: center; text-decoration: none; line-height: 1.1;">
-              <span class="home-social-icon" style="display: inline-flex;">
-                {{ partial "social-icon.html" . }}
-              </span>
-              <span style="font-size: 0.65rem;">{{ .name }}</span>
+            <a class="home-social-link social-link" href="{{ .url }}" target="_blank" rel="me noopener noreferrer" aria-label="{{ .name }}" title="{{ .name }}" style="display: inline-flex; align-items: center; justify-content: center; width: 4rem; height: 4rem; border: 1px solid currentColor; border-radius: 999px; text-decoration: none; line-height: 1;">
+              {{ partial "social-icon.html" . }}
             </a>
           {{ end }}
         </nav>
@@ -62,7 +63,7 @@
   <hr style="border: 0; border-top: 1px solid currentColor; opacity: 0.3; margin: 1.5rem 0 2rem;" />
 
   <div class="posts posts--news-preview">
-    <h2>Latest News</h2>
+    <h2 class="home-section-title">Latest News</h2>
     {{ $newsPages := first 3 (where .Site.RegularPages.ByDate.Reverse "Type" "news") }}
     {{ if gt (len $newsPages) 0 }}
       {{ range $newsPages }}
@@ -95,7 +96,7 @@
           {{ end }}
         </article>
       {{ end }}
-      <div>
+      <div style="text-align: center;">
         <a class="button" href="{{ "news/" | relURL }}">Show all news →</a>
       </div>
     {{ else }}

@@ -1,0 +1,217 @@
+<style>
+  /* Muted accent, the same mix the theme uses for the date/author line of posts. */
+  :root {
+    --accent-muted: color-mix(in srgb, var(--accent), transparent 30%);
+  }
+
+  /* One shared style for all buttons: outlined pill with a lift-on-hover animation. */
+  a.button,
+  a.read-more,
+  a.read-more:hover,
+  a.read-more:active,
+  span.button,
+  .header .menu--mobile .menu__trigger {
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color);
+    padding: 0.5rem 1rem;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  a.button,
+  a.read-more,
+  span.button {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  span.button a {
+    padding: 0;
+    color: inherit;
+  }
+
+  a.button,
+  a.read-more,
+  span.button,
+  .header .menu--mobile .menu__trigger,
+  .social-link {
+    transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  a.button:hover,
+  a.button:focus-visible,
+  a.read-more:hover,
+  a.read-more:focus-visible,
+  span.button:hover,
+  span.button:focus-within,
+  .header .menu--mobile .menu__trigger:hover,
+  .social-link:hover,
+  .social-link:focus-visible {
+    background: transparent;
+    color: var(--accent);
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Rounded logo, matching the pill buttons. */
+  .header .logo {
+    background: var(--accent-muted);
+    border-radius: 999px;
+    padding: 5px 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .header__logo a:hover .logo,
+  .header__logo a:focus-visible .logo {
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Row of dots next to the logo, replacing the theme's vertical stripes. */
+  .header__logo:after {
+    background: radial-gradient(circle, var(--accent-muted) 2.5px, transparent 3px) left center / 14px 14px;
+    background-repeat: space no-repeat;
+    margin-left: 6px;
+  }
+
+  /* Logo, dots and menu bar in one row; the menu wraps below when space runs out. */
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px 6px;
+    margin-bottom: 20px;
+  }
+
+  .header__inner {
+    flex: 1 1 200px;
+  }
+
+  .header .navigation-menu {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  /* Framed boxes: corner radius = inner photo radius (16px) + frame padding (20px). */
+  .framed {
+    border-radius: 36px;
+  }
+
+  /* Desktop menu as one rounded bar; the current page is a filled pill inside it. */
+  .navigation-menu__inner.menu--desktop {
+    flex: 0 1 auto;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.3rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.5rem;
+    color: var(--color);
+  }
+
+  .navigation-menu__inner.menu--desktop > li {
+    margin: 0 !important;
+  }
+
+  .navigation-menu__inner.menu--desktop > li > a {
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    color: var(--color) !important;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease, background 0.2s ease;
+  }
+
+  .navigation-menu__inner.menu--desktop > li > a:hover,
+  .navigation-menu__inner.menu--desktop > li > a:focus-visible {
+    color: var(--accent) !important;
+    transform: scale(1.08);
+  }
+
+  .navigation-menu__inner.menu--desktop > li > a.menu-link--active {
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color) !important;
+  }
+
+  /* Phone menu: trigger and dropdown panel in the same style as the desktop menu bar. */
+  .header .menu--mobile .menu__trigger {
+    border-color: var(--accent-muted);
+  }
+
+  .menu--mobile .menu__dropdown {
+    top: calc(100% + 8px);
+    left: auto;
+    right: 0;
+    min-width: 11rem;
+    gap: 0.2rem;
+    padding: 0.4rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.25rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  .menu--mobile .menu__dropdown > li {
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  .menu--mobile .menu__dropdown > li > a {
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    color: var(--color) !important;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  .menu--mobile .menu__dropdown > li > a:hover,
+  .menu--mobile .menu__dropdown > li > a:focus-visible {
+    color: var(--accent) !important;
+    transform: scale(1.08);
+  }
+
+  .menu--mobile .menu__dropdown > li > a.menu-link--active {
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color) !important;
+  }
+
+  @media (max-width: 900px) {
+    .navigation-menu__inner.menu--desktop {
+      gap: 0;
+    }
+
+    .navigation-menu__inner.menu--desktop > li > a {
+      padding: 0.35rem 0.55rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    a.button,
+    a.read-more,
+    span.button,
+    .header .menu--mobile .menu__trigger,
+    .social-link {
+      transition: color 0.2s ease;
+    }
+
+    a.button:hover,
+    a.button:focus-visible,
+    a.read-more:hover,
+    a.read-more:focus-visible,
+    span.button:hover,
+    span.button:focus-within,
+    .header .menu--mobile .menu__trigger:hover,
+    .social-link:hover,
+    .social-link:focus-visible,
+    .header__logo a:hover .logo,
+    .header__logo a:focus-visible .logo,
+    .navigation-menu__inner.menu--desktop > li > a:hover,
+    .navigation-menu__inner.menu--desktop > li > a:focus-visible,
+    .menu--mobile .menu__dropdown > li > a:hover,
+    .menu--mobile .menu__dropdown > li > a:focus-visible {
+      transform: none;
+    }
+  }
+</style>

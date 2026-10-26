@@ -181,6 +181,60 @@
     font-size: 2rem;
   }
 
+  /* News and blog entries: rounded cards, plain titles, date as a pill. */
+  .post.on-list,
+  .post.on-list:not(:last-of-type) {
+    margin: 0 0 1.25rem;
+    padding: 1.5rem 1.75rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.5rem;
+  }
+
+  .post-title,
+  .headings--one-size .post-title {
+    margin: 0 0 0.6rem;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .post-title:after {
+    content: none;
+  }
+
+  .post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .post-meta > *:not(:first-child)::before {
+    content: "·";
+  }
+
+  .post-meta .post-date {
+    padding: 0.15rem 0.7rem;
+    border-radius: 999px;
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color);
+  }
+
+  @media (max-width: 684px) {
+    .post.on-list,
+    .post.on-list:not(:last-of-type) {
+      padding: 1.1rem 1.2rem;
+    }
+  }
+
+  .post.on-list .read-more {
+    margin: 0.5rem 0 0;
+  }
+
+  .post-content img {
+    border-radius: 16px;
+  }
+
   /* Timeline (Teaching and Presentations): h3 headings are dots on a vertical line. */
   .page-content--teaching,
   .page-content--talks {

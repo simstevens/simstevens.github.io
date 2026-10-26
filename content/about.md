@@ -7,8 +7,7 @@ title = "About"
 Trier University  
 Department of Mathematics  
 Universitätsring 15  
-54296 Trier  
-+49 651 / 201 - 3452   
+54296 Trier   
 stevens@uni-trier.de
 
 ---

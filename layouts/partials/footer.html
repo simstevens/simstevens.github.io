@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer__inner" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
     <div class="copyright copyright--user" style="text-align: center;">
-      <span>© {{ now.Year }} Simon Stevens</span>
+      <span>© {{ now.Year }} Simon Stevens · <a href="{{ "privacy/" | relURL }}">Imprint & Privacy</a></span>
     </div>
 
     {{ with hugo.Data.social.links }}

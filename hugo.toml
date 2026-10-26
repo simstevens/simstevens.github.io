@@ -58,7 +58,7 @@ pagination.pagerSize = 5
     weight = 5
   [[languages.en.menu.main]]
     identifier = "talks"
-    name = "Talks"
+    name = "Presentations"
     url = "/talks"
     weight = 3 
   [[languages.en.menu.main]]

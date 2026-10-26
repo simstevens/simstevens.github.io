@@ -176,18 +176,20 @@
     color: var(--accent-contrast-color) !important;
   }
 
-  /* Larger titles on the simple pages (Publications, Talks, Teaching, About). */
+  /* Larger titles on the simple pages (Publications, Presentations, Teaching, About). */
   .headings--one-size .page-title {
     font-size: 2rem;
   }
 
-  /* Teaching page as a timeline: terms (h3) are dots on a vertical line, courses (li) are cards. */
-  .page-content--teaching {
+  /* Timeline (Teaching and Presentations): h3 headings are dots on a vertical line. */
+  .page-content--teaching,
+  .page-content--talks {
     position: relative;
     padding-left: 2rem;
   }
 
-  .page-content--teaching::before {
+  .page-content--teaching::before,
+  .page-content--talks::before {
     content: "";
     position: absolute;
     top: 0.5rem;
@@ -198,7 +200,8 @@
     background: var(--accent-muted);
   }
 
-  .page-content--teaching h3 {
+  .page-content--teaching h3,
+  .page-content--talks h3 {
     position: relative;
     display: inline-block;
     margin: 2rem 0 0.8rem;
@@ -209,11 +212,13 @@
     font-size: 1rem;
   }
 
-  .page-content--teaching h3:first-child {
+  .page-content--teaching h3:first-child,
+  .page-content--talks h3:first-child {
     margin-top: 0;
   }
 
-  .page-content--teaching h3::before {
+  .page-content--teaching h3::before,
+  .page-content--talks h3::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -264,6 +269,73 @@
     color: var(--accent);
     transform: translateY(-4px) scale(1.04);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Presentations and publications: each list item is a card. */
+  .page-content--talks ul,
+  .page-content--publications ul {
+    display: grid;
+    gap: 1rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .page-content--talks li,
+  .page-content--publications li {
+    margin: 0;
+    padding: 1rem 1.3rem;
+    border: 1px solid var(--accent-muted);
+    border-radius: 1.25rem;
+    color: color-mix(in srgb, var(--color), transparent 25%);
+  }
+
+  .page-content--talks li::before,
+  .page-content--publications li::before {
+    content: none;
+  }
+
+  .page-content--talks li p,
+  .page-content--publications li p {
+    margin: 0;
+  }
+
+  .page-content--talks li strong,
+  .page-content--publications li strong {
+    color: var(--accent);
+  }
+
+  /* Links inside the cards become small pill buttons. */
+  .page-content--talks li a,
+  .page-content--publications li a {
+    display: inline-block;
+    margin: 0.2rem 0;
+    padding: 0.15rem 0.7rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    color: var(--color) !important;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  .page-content--talks li a:hover,
+  .page-content--talks li a:focus-visible,
+  .page-content--publications li a:hover,
+  .page-content--publications li a:focus-visible {
+    color: var(--accent) !important;
+    transform: scale(1.06);
+  }
+
+  /* Emphasised text in a talk card (e.g. *Poster Presentation*) is shown as a tag. */
+  .page-content--talks li em {
+    display: inline-block;
+    margin: 0.2rem 0;
+    padding: 0.1rem 0.6rem;
+    border-radius: 999px;
+    background: var(--accent-muted);
+    color: var(--accent-contrast-color);
+    font-size: 0.85rem;
+    font-style: normal;
   }
 
   /* Course details pop-up (native popover, centred by the browser). */
@@ -366,7 +438,11 @@
     .page-content--teaching .course-card:hover,
     .page-content--teaching .course-card:focus-visible,
     .course-popover .course-popover__close:hover,
-    .course-popover .course-popover__close:focus-visible {
+    .course-popover .course-popover__close:focus-visible,
+    .page-content--talks li a:hover,
+    .page-content--talks li a:focus-visible,
+    .page-content--publications li a:hover,
+    .page-content--publications li a:focus-visible {
       transform: none;
     }
   }
